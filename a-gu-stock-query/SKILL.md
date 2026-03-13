@@ -59,6 +59,6 @@ node {baseDir}/scripts/recheck.mjs "000858"
 
 Notes:
 - 需要 `AGU_API_KEY` 环境变量
-- 可选 `AGU_API_BASE_URL`，默认 `http://localhost:5088`
+- 可选 `AGU_API_BASE_URL`，默认 `https://service.dazhidayong.cn`
 - 数据来源于每日定时选股程序，非交易日无数据
 - **投资有风险，数据仅供参考**

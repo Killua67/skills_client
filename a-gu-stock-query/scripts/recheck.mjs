@@ -17,7 +17,7 @@ if (!apiKey) {
   process.exit(1);
 }
 
-const baseUrl = (process.env.AGU_API_BASE_URL || "http://localhost:5088").replace(/\/$/, "");
+const baseUrl = (process.env.AGU_API_BASE_URL || "https://service.dazhidayong.cn").replace(/\/$/, "");
 const query = new URLSearchParams({ code });
 
 const resp = await fetch(`${baseUrl}/api/stock/recheck?${query.toString()}`, {
